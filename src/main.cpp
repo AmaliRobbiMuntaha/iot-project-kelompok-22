@@ -11,14 +11,13 @@
 #include <EEPROM.h>
 
 // PENGATURAN
-// const char* WIFI_SSID = "Titi";
-// const char* WIFI_PASS = "Ti19012007";
-const char* WIFI_SSID = "bibies";
-const char* WIFI_PASS = "12312123";
-const char* BOT_TOKEN = "9131212915:AAErlrlHSTRKV14qKS2TwoPmZRN1slic8e0";
-const char* PIN_DAFTAR = "mhehe123";   // dipakai untuk /daftar
-const char* AP_SSID = "Wemos_D1_Mini_AP";
-const char* AP_PASS = "password123";
+// CONFIG PLACEHOLDER
+const char* WIFI_SSID = "";
+const char* WIFI_PASS = "";
+const char* BOT_TOKEN = "";
+const char* PIN_DAFTAR = "";   // dipakai untuk /daftar
+const char* AP_SSID = "";
+const char* AP_PASS = "";
 
 // MODE TES: true = hanya tes pin (buka Serial Monitor 115200), false = program normal
 const bool MODE_TES = false;
